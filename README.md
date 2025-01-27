@@ -80,10 +80,16 @@ I strive to create software solutions that are not only functional but also opti
   <img src="https://github-contributor-stats.vercel.app/api?username=Timujaponya&limit=5&theme=midnight-purple" alt="GitHub Contributions" />
 </div>
 
+###
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/Timujaponya/Timujaponya/output/snake.svg" alt="Snake animation" />
+
+###
+
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Timujaponya.Timujaponya&left_color=midnightblue&right_color=mintcream" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Timujaponya.Timujaponya&left_color=midnightblue&right_color=mintcream"  />
 </div>
 
----
-
-[![](https://visitcount.itsvg.in/api?id=Timujaponya&icon=10&color=7)](https://visitcount.itsvg.in)
+###
