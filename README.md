@@ -81,9 +81,9 @@ I strive to create software solutions that are not only functional but also opti
 </div>
 
 <div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Timujaponya.Timujaponya&left_color=midnightblue&right_color=mintcream" />
+  <img src="https://visitcount.itsvg.in/api?id=Timujaponya&label=Profile%20Views&color=6&icon=5&pretty=true" />
 </div>
 
 ---
 
-[![](https://visitcount.itsvg.in/api?id=Timujaponya&icon=10&color=7)](https://visitcount.itsvg.in)
+<img src="https://raw.githubusercontent.com/Timujaponya/Timujaponya/output/snake.svg" alt="Snake animation" />
