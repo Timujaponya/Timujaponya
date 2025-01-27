@@ -70,26 +70,14 @@ I strive to create software solutions that are not only functional but also opti
 
 <h1 align="left">📊 GitHub Stats</h1>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Timujaponya&show_icons=true&theme=midnight-purple&hide_border=true" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Timujaponya&layout=compact&langs_count=5&theme=midnight-purple&hide_border=true" height="150" alt="Top Languages" />
-  <img src="https://streak-stats.demolab.com?user=Timujaponya&theme=midnight-purple&hide_border=true" height="150" alt="GitHub Streak" />
-</div>
+![](https://github-readme-stats.vercel.app/api?username=Timujaponya&theme=midnight-purple&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=Timujaponya&theme=midnight-purple&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Timujaponya&theme=midnight-purple&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-<div align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=Timujaponya&limit=5&theme=midnight-purple" alt="GitHub Contributions" />
-</div>
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=Timujaponya&limit=5&theme=midnight-purple&combine_all_yearly_contributions=true)
 
-###
+---
+[![](https://visitcount.itsvg.in/api?id=Timujaponya&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/Timujaponya/Timujaponya/output/snake.svg" alt="Snake animation" />
-
-###
-
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Timujaponya.Timujaponya&left_color=midnightblue&right_color=mintcream"  />
-</div>
-
-###
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
