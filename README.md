@@ -8,31 +8,31 @@ Hi there! 👋 I'm <b>Arda Timuçin</b>, a passionate software developer with a 
 
 <h3 align="center">🚀 What I'm Working On</h3>
 
-<ul align="center">
+<ol align="center">
   <li>Developing web applications using <b>ASP.NET Core MVC, Entity Framework, and Identity Framework</b>.</li>
   <li>Exploring <b>PostgreSQL integration</b> in Windows Forms applications with <b>C#</b>.</li>
   <li>Enhancing my understanding of <b>SQL</b>, focusing on practical applications and best practices.</li>
   <li>Experimenting with <b>genetic algorithms</b> for financial data analysis and optimization.</li>
-</ul>
+</ol>
 
 <h3 align="center">🛠️ Technologies & Tools I Use</h3>
 
-<ul align="center">
+<ol align="center">
   <li><b>Languages:</b> C#, Python, Java</li>
   <li><b>Frameworks:</b> ASP.NET Core, Spring Boot</li>
   <li><b>Databases:</b> PostgreSQL, SQL Server</li>
   <li><b>Web Development:</b> HTML, CSS, Bootstrap, JavaScript</li>
   <li><b>Version Control:</b> Git & GitHub</li>
   <li><b>Tools:</b> Visual Studio, VS Code, Docker</li>
-</ul>
+</ol>
 
 <h3 align="center">📚 Learning Goals</h3>
 
-<ul align="center">
+<ol align="center">
   <li>Advanced backend development concepts with a focus on maintainability and scalability.</li>
   <li>Improving user experience through UI/UX best practices in web design.</li>
   <li>Implementing effective logging and unit testing strategies.</li>
-</ul>
+</ol>
 
 <h3 align="center">🎯 My Mission</h3>
 
@@ -88,12 +88,4 @@ I strive to create software solutions that are not only functional but also opti
 
 <p align="center">
   <img src="https://github-contributor-stats.vercel.app/api?username=Timujaponya&limit=5&theme=midnight-purple&combine_all_yearly_contributions=true" />
-</p>
-
----
-
-<p align="center">
-  <a href="https://visitcount.itsvg.in">
-    <img src="https://visitcount.itsvg.in/api?id=Timujaponya&icon=0&color=0" />
-  </a>
 </p>
