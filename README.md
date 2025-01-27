@@ -1,5 +1,28 @@
 # 💫 About Me:
-asdasdasdasd
+Hi there! 👋 I'm Arda Timuçin, a passionate software developer with a keen interest in backend development and building scalable, efficient applications. I'm constantly improving my skills by working on intermediate-level projects that help me deepen my knowledge and fill any gaps along the way.
+
+🚀 What I'm Working On
+Developing web applications using ASP.NET Core MVC, Entity Framework, and Identity Framework.
+Exploring PostgreSQL integration in Windows Forms applications with C#.
+Enhancing my understanding of SQL, focusing on practical applications and best practices.
+Experimenting with genetic algorithms for financial data analysis and optimization.
+🛠️ Technologies & Tools I Use
+Languages: C#, Python, Java
+Frameworks: ASP.NET Core, Spring Boot
+Databases: PostgreSQL, SQL Server
+Web Development: HTML, CSS, Bootstrap, JavaScript
+Version Control: Git & GitHub
+Tools: Visual Studio, VS Code, Docker
+📚 Learning Goals
+I'm currently diving deeper into:
+
+Advanced backend development concepts with a focus on maintainability and scalability.
+Improving user experience through UI/UX best practices in web design.
+Implementing effective logging and unit testing strategies.
+🎯 My Mission
+I strive to create software solutions that are not only functional but also optimized for performance and maintainability. My goal is to build applications that make a real impact while continuously growing as a developer.
+
+Let's connect and collaborate on exciting projects! 🚀
 
 
 ## 🌐 Socials:
