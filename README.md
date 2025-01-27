@@ -17,3 +17,4 @@ Here are some ideas to get you started:
 
 ![Visitor Count](https://profile-counter.glitch.me/Timujaponya/count.svg)
 
+![Static Badge](https://img.shields.io/badge/:badgeContent)
