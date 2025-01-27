@@ -1,6 +1,4 @@
-
-
-<!--# 💫 About Me:
+# 💫 About Me:
 asdasdasdasd
 
 
@@ -19,29 +17,9 @@ asdasdasdasd
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Timujaponya&limit=5&theme=midnight-purple&combine_all_yearly_contributions=true)
+<img align="left" src="https://camo.githubusercontent.com/8bb13621cefbe1f2b24f8717d6f0cac156430fe68d154a36ec16222fad1f88a5/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67733f757365726e616d653d74696d756a61706f6e79612673686f775f69636f6e733d74727565266c6f63616c653d656e266c61796f75743d636f6d70616374" alt="timujaponya" data-canonical-src="https://github-readme-stats.vercel.app/api/top-langs?username=timujaponya&amp;show_icons=true&amp;locale=en&amp;layout=compact" style="max-width: 100%;">
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Timujaponya&icon=10&color=7)](https://visitcount.itsvg.in) -->
+[![](https://visitcount.itsvg.in/api?id=Timujaponya&icon=10&color=7)](https://visitcount.itsvg.in) 
 
 
-<h1 align="center">Hi 👋, I'm Timucin</h1>
-<h3 align="center">asdasmn.,asnd</h3>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=timujaponya&label=Profile%20views&color=0e75b6&style=flat" alt="timujaponya" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=timujaponya" alt="timujaponya" /></a> </p>
-
-### Blogs posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="/adsadasdad" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/rss.svg" alt="adsadasdad" height="30" width="40" /></a>
-</p>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=timujaponya&show_icons=true&locale=en&layout=compact" alt="timujaponya" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=timujaponya&show_icons=true&locale=en" alt="timujaponya" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=timujaponya&" alt="timujaponya" /></p>
