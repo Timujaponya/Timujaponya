@@ -17,4 +17,4 @@ Here are some ideas to get you started:
 
 ![Visitor Count](https://profile-counter.glitch.me/Timujaponya/count.svg)
 
-<a href="www.google.com">![Static Badge](https://img.shields.io/badge/hello_world-helloooo-yellow)<a\>
+<a href="www.google.com">![Static Badge](https://img.shields.io/badge/hello_world-helloooo-yellow)<a/>
