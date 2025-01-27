@@ -14,5 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
-![visitors]([https://visitor-badge.glitch.me/badge?page_id=page.id&left_color=green&right_color=red](https://visitor-badge.glitch.me/badge?page_id=timujaponya.visitor-badge))
+```
+![Visitor Count](https : //profile-counter.glitch.me/{timujaponya}/count.svg)
+```
