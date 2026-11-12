@@ -21,6 +21,13 @@
 - 🌱 Organizer of **Google Developer Groups on Campus** Sakarya.
 - 💼 Open to **freelance and part-time** work: websites, e-commerce, MVPs and game prototypes.
 
+## 🔭 Right now
+
+- 🎙️ Running the 2026–27 season of **GDG on Campus Sakarya**: hackathons, tea talks and workshops
+- 🎨 Polishing **[timucin.site](https://timucin.site)**: motion design, case studies and a themed CV
+- 🛒 Taking on **freelance** website and e-commerce builds
+- 🎓 Final year of Software Engineering at Sakarya University
+
 ## 🚀 Featured work
 
 | Project | What it is | Stack |
@@ -29,6 +36,37 @@
 | 🌱 **[Apoclimate](https://kedaybehzat.github.io/son-denge/)** · `playable` | Climate-themed bunker management game set in 2071: balance energy, water, food, waste and carbon | Phaser · JavaScript |
 | 🧭 **[timucin.site](https://timucin.site)** · `live` | My portfolio, with an SVG motion layer and a TR/EN toggle | HTML · CSS · JS · Railway |
 | 📈 **[GeneticAlgorithm](https://github.com/Timujaponya/GeneticAlgorithm)** | Genetic algorithm for algorithmic trading strategies | Python · Pandas |
+
+## 🎮 Game showcase
+
+<a href="https://kedaybehzat.github.io/son-denge/"><img src="./assets/apoclimate.jpg" width="100%" alt="Apoclimate gameplay: bunker rooms with energy, water, food, waste and carbon gauges"/></a>
+
+**Apoclimate** · Yeşilvadi, 2071. After the Great Silence, keep a climate bunker alive for 5 days: balance energy, water, food, waste and carbon, keep residents rested and trusting, and decide who gets in when someone knocks. Easy fixes come with a carbon price.
+
+[![Play in browser](https://img.shields.io/badge/%E2%96%B6%20Play%20in%20browser-6c4cf5?style=for-the-badge)](https://kedaybehzat.github.io/son-denge/)
+
+## 💼 Services
+
+| | Service | What you get | From |
+| :---: | --- | --- | ---: |
+| 🌐 | **Business website** | Custom design, SEO basics, WhatsApp, maps & contact form · 1–2 weeks | ₺15,000 |
+| 🛒 | **E-commerce** | Products, stock, cart, orders, payments & an admin panel · 3–5 weeks | ₺40,000 |
+| 🚀 | **MVP / web app** | Core feature first, built to scale if it works · 2–6 weeks | ₺30,000 |
+| 🎮 | **Game prototype** | Playable core mechanic with weekly builds · 2–4 weeks | ₺20,000 |
+| 🛠️ | **Care & hosting** | Hosting, domain, SSL, backups & small edits | ₺1,500/mo |
+
+[![Get a quote](https://img.shields.io/badge/Get%20a%20quote-ff5a1f?style=for-the-badge)](https://timucin.site/#contact)
+&nbsp;Fixed quote after a free 30-minute call.
+
+## 📅 GDG on Campus Sakarya · latest events
+
+<!-- GDG-EVENTS:START -->
+- ✅ `27 Oct 2026` · [Hackathon](https://gdg.community.dev/events/details/google-gdg-on-campus-sakarya-universitesi-sakarya-turkiye-presents-gdg-on-campus-sakarya-university-hackathon/)
+- ✅ `16 Oct 2026` · [Tea Talk](https://gdg.community.dev/events/details/google-gdg-on-campus-sakarya-universitesi-sakarya-turkiye-presents-gdg-on-campus-sakarya-university-tea-talk/)
+- ✅ `06 Oct 2026` · [GDG on Campus Sakarya Üniversitesi ile tanış!](https://gdg.community.dev/events/details/google-gdg-on-campus-sakarya-universitesi-sakarya-turkiye-presents-gdg-on-campus-sakarya-universitesi-ile-tanis/)
+<!-- GDG-EVENTS:END -->
+
+<sub>Updated daily by a GitHub Action from the [chapter page](https://gdg.community.dev/gdg-on-campus-sakarya-universitesi-sakarya-turkiye/).</sub>
 
 ## 🧰 Tech stack
 
