@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="500" viewBox="0 0 840 500" role="img" aria-label="Services: business website from ₺15,000, e-commerce from ₺40,000, MVP from ₺30,000, game prototype from ₺20,000, care and hosting from ₺1,500 a month.">
+<defs>
+<pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#ffffff" fill-opacity=".07"/></pattern>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff6a33"/><stop offset="1" stop-color="#6c4cf5"/></linearGradient>
+<linearGradient id="hz" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff6a33"/><stop offset="1" stop-color="#6c4cf5"/></linearGradient>
+<style>
+@keyframes pulse{0%{opacity:.9;transform:scale(1)}100%{opacity:0;transform:scale(2.6)}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.2s ease-out infinite}
+@keyframes dash{to{stroke-dashoffset:-240}}
+.dash{animation:dash 14s linear infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+.bob{animation:bob 2.6s ease-in-out infinite}
+@keyframes blink{50%{opacity:.25}}
+.blink{animation:blink 1.4s steps(2) infinite}
+@keyframes stripes{to{transform:translateX(16px)}}
+.stripes{animation:stripes .8s linear infinite}
+</style>
+</defs>
+<rect x="1" y="1" width="838" height="498" rx="18" fill="#16150f"/>
+<rect x="1" y="1" width="838" height="498" rx="18" fill="url(#dots)"/>
+<rect x="1" y="1" width="838" height="498" rx="18" fill="none" stroke="url(#edge)" stroke-opacity=".6" stroke-width="1.5"/>
+<rect x="28" y="1" width="110" height="3" rx="1.5" fill="#ff6a33"/>
+<rect x="28.0" y="29.0" width="10" height="10" fill="#ff6a33" transform="rotate(45 33.0 34.0)" />
+<text x="48.0" y="39.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="13" font-weight="700" fill="#f3f0e7" text-anchor="start" letter-spacing="3" >SERVICES</text>
+<text x="148.5" y="39.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="13" font-weight="400" fill="#8a8573" text-anchor="start" letter-spacing="1" >· ITEM SHOP</text>
+<line x1="262.1" y1="34" x2="736" y2="34" stroke="#2e2d27"/>
+<g class="bob"><rect x="752.5" y="30.5" width="7" height="7" fill="#b8f34a" transform="rotate(45 756.0 34.0)" /></g>
+<g class="bob" style="animation-delay:-.6s"><rect x="770.5" y="30.5" width="7" height="7" fill="#ff6a33" transform="rotate(45 774.0 34.0)" /></g>
+<g class="bob" style="animation-delay:-1.2s"><rect x="788.5" y="30.5" width="7" height="7" fill="#6c4cf5" transform="rotate(45 792.0 34.0)" /></g>
+<rect x="28" y="74" width="784" height="58" rx="12" fill="#1e1d18" stroke="#2e2d27"/>
+<rect x="42" y="85" width="52" height="36" rx="9" fill="#ff6a33" fill-opacity=".14" stroke="#ff6a33" stroke-opacity=".6"/>
+<text x="68.0" y="107.5" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11" font-weight="700" fill="#ff6a33" text-anchor="middle" letter-spacing="1.5" >WEB</text>
+<text x="110.0" y="99.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="15.5" font-weight="700" fill="#f3f0e7" text-anchor="start" letter-spacing="0" >Business website</text>
+<text x="110.0" y="119.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#bdb8aa" text-anchor="start" letter-spacing="0" >Custom design, SEO basics, WhatsApp, maps and contact form</text>
+<text x="572.0" y="99.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="10" font-weight="700" fill="#8a8573" text-anchor="start" letter-spacing="2" >FROM</text>
+<text x="572.0" y="119.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11.5" font-weight="400" fill="#8a8573" text-anchor="start" letter-spacing="0" >1–2 weeks</text>
+<text x="794.0" y="113.0" font-family="Georgia,'Times New Roman',serif" font-size="24" font-weight="400" fill="#ff6a33" text-anchor="end" letter-spacing="0" font-style="italic">₺15,000</text>
+<rect x="28" y="142" width="784" height="58" rx="12" fill="#1e1d18" stroke="#2e2d27"/>
+<rect x="42" y="153" width="52" height="36" rx="9" fill="#ff6a33" fill-opacity=".14" stroke="#ff6a33" stroke-opacity=".6"/>
+<text x="68.0" y="175.5" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11" font-weight="700" fill="#ff6a33" text-anchor="middle" letter-spacing="1.5" >SHOP</text>
+<text x="110.0" y="167.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="15.5" font-weight="700" fill="#f3f0e7" text-anchor="start" letter-spacing="0" >E-commerce</text>
+<text x="110.0" y="187.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#bdb8aa" text-anchor="start" letter-spacing="0" >Products, stock, cart, orders, payments and an admin panel</text>
+<text x="572.0" y="167.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="10" font-weight="700" fill="#8a8573" text-anchor="start" letter-spacing="2" >FROM</text>
+<text x="572.0" y="187.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11.5" font-weight="400" fill="#8a8573" text-anchor="start" letter-spacing="0" >3–5 weeks</text>
+<text x="794.0" y="181.0" font-family="Georgia,'Times New Roman',serif" font-size="24" font-weight="400" fill="#ff6a33" text-anchor="end" letter-spacing="0" font-style="italic">₺40,000</text>
+<rect x="28" y="210" width="784" height="58" rx="12" fill="#1e1d18" stroke="#2e2d27"/>
+<rect x="42" y="221" width="52" height="36" rx="9" fill="#b8f34a" fill-opacity=".14" stroke="#b8f34a" stroke-opacity=".6"/>
+<text x="68.0" y="243.5" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11" font-weight="700" fill="#b8f34a" text-anchor="middle" letter-spacing="1.5" >MVP</text>
+<text x="110.0" y="235.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="15.5" font-weight="700" fill="#f3f0e7" text-anchor="start" letter-spacing="0" >MVP / web app</text>
+<text x="110.0" y="255.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#bdb8aa" text-anchor="start" letter-spacing="0" >Core feature first, built to scale if it works</text>
+<text x="572.0" y="235.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="10" font-weight="700" fill="#8a8573" text-anchor="start" letter-spacing="2" >FROM</text>
+<text x="572.0" y="255.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11.5" font-weight="400" fill="#8a8573" text-anchor="start" letter-spacing="0" >2–6 weeks</text>
+<text x="794.0" y="249.0" font-family="Georgia,'Times New Roman',serif" font-size="24" font-weight="400" fill="#b8f34a" text-anchor="end" letter-spacing="0" font-style="italic">₺30,000</text>
+<rect x="28" y="278" width="784" height="58" rx="12" fill="#1e1d18" stroke="#2e2d27"/>
+<rect x="42" y="289" width="52" height="36" rx="9" fill="#9a84ff" fill-opacity=".14" stroke="#9a84ff" stroke-opacity=".6"/>
+<text x="68.0" y="311.5" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11" font-weight="700" fill="#9a84ff" text-anchor="middle" letter-spacing="1.5" >GAME</text>
+<text x="110.0" y="303.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="15.5" font-weight="700" fill="#f3f0e7" text-anchor="start" letter-spacing="0" >Game prototype</text>
+<text x="110.0" y="323.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#bdb8aa" text-anchor="start" letter-spacing="0" >A playable core mechanic with a new build every week</text>
+<text x="572.0" y="303.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="10" font-weight="700" fill="#8a8573" text-anchor="start" letter-spacing="2" >FROM</text>
+<text x="572.0" y="323.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11.5" font-weight="400" fill="#8a8573" text-anchor="start" letter-spacing="0" >2–4 weeks</text>
+<text x="794.0" y="317.0" font-family="Georgia,'Times New Roman',serif" font-size="24" font-weight="400" fill="#9a84ff" text-anchor="end" letter-spacing="0" font-style="italic">₺20,000</text>
+<rect x="28" y="346" width="784" height="58" rx="12" fill="#1e1d18" stroke="#2e2d27"/>
+<rect x="42" y="357" width="52" height="36" rx="9" fill="#bdb8aa" fill-opacity=".14" stroke="#bdb8aa" stroke-opacity=".6"/>
+<text x="68.0" y="379.5" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11" font-weight="700" fill="#bdb8aa" text-anchor="middle" letter-spacing="1.5" >CARE</text>
+<text x="110.0" y="371.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="15.5" font-weight="700" fill="#f3f0e7" text-anchor="start" letter-spacing="0" >Care &amp; hosting</text>
+<text x="110.0" y="391.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="400" fill="#bdb8aa" text-anchor="start" letter-spacing="0" >Hosting, domain, SSL, backups and small edits</text>
+<text x="572.0" y="371.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="10" font-weight="700" fill="#8a8573" text-anchor="start" letter-spacing="2" >FROM</text>
+<text x="572.0" y="391.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11.5" font-weight="400" fill="#8a8573" text-anchor="start" letter-spacing="0" >monthly</text>
+<text x="794.0" y="385.0" font-family="Georgia,'Times New Roman',serif" font-size="24" font-weight="400" fill="#bdb8aa" text-anchor="end" letter-spacing="0" font-style="italic">₺1,500/mo</text>
+<rect x="28" y="428" width="178" height="44" rx="22" fill="#ff6a33"/>
+<text x="117.0" y="455.5" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1.5" >GET A QUOTE  →</text>
+<text x="224.0" y="455.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="#bdb8aa" text-anchor="start" letter-spacing="0" >Fixed quote after a free 30-minute call · timucin.site</text>
+</svg>
