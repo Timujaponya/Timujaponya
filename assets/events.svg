@@ -1,8 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="308" viewBox="0 0 840 308" role="img" aria-label="Latest GDG on Campus Sakarya events: GDG on Campus Sakarya University - Hackathon (2026-10-27); GDG on Campus Sakarya University - Tea Talk (2026-10-16); GDG on Campus Sakarya Üniversitesi ile tanış! (2026-10-06)">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="330" viewBox="0 0 840 330" role="img" aria-label="Latest GDG on Campus Sakarya events: GDG on Campus Sakarya University - Hackathon (2026-10-27); GDG on Campus Sakarya University - Tea Talk (2026-10-16); GDG on Campus Sakarya Üniversitesi ile tanış! (2026-10-06)">
 <defs>
-<pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#ffffff" fill-opacity=".07"/></pattern>
-<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff6a33"/><stop offset="1" stop-color="#6c4cf5"/></linearGradient>
-<linearGradient id="hz" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff6a33"/><stop offset="1" stop-color="#6c4cf5"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.3" fill="#ffffff" fill-opacity=".16"/></pattern>
+<linearGradient id="bgg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff5a1f"/><stop offset=".55" stop-color="#c2452f"/><stop offset="1" stop-color="#6c4cf5"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity=".5"/></linearGradient>
+<linearGradient id="hz" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity=".4"/></linearGradient>
+<clipPath id="wave"><path d="M0 18Q0 0 18 0H822Q840 0 840 18V292C735 328,620 276,510 300S280 326,170 298S40 292,0 308Z"/></clipPath>
 <style>
 @keyframes pulse{0%{opacity:.9;transform:scale(1)}100%{opacity:0;transform:scale(2.6)}}
 .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.2s ease-out infinite}
@@ -16,29 +18,30 @@
 .stripes{animation:stripes .8s linear infinite}
 </style>
 </defs>
-<rect x="1" y="1" width="838" height="306" rx="18" fill="#16150f"/>
-<rect x="1" y="1" width="838" height="306" rx="18" fill="url(#dots)"/>
-<rect x="1" y="1" width="838" height="306" rx="18" fill="none" stroke="url(#edge)" stroke-opacity=".6" stroke-width="1.5"/>
-<rect x="28" y="1" width="110" height="3" rx="1.5" fill="#b8f34a"/>
-<rect x="28.0" y="29.0" width="10" height="10" fill="#b8f34a" transform="rotate(45 33.0 34.0)" />
-<text x="48.0" y="39.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="13" font-weight="700" fill="#f3f0e7" text-anchor="start" letter-spacing="3" >GDG ON CAMPUS SAKARYA</text>
-<text x="292.3" y="39.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="13" font-weight="400" fill="#8a8573" text-anchor="start" letter-spacing="1" >· EVENTS</text>
-<line x1="378.7" y1="34" x2="736" y2="34" stroke="#2e2d27"/>
-<g class="bob"><rect x="752.5" y="30.5" width="7" height="7" fill="#b8f34a" transform="rotate(45 756.0 34.0)" /></g>
-<g class="bob" style="animation-delay:-.6s"><rect x="770.5" y="30.5" width="7" height="7" fill="#ff6a33" transform="rotate(45 774.0 34.0)" /></g>
-<g class="bob" style="animation-delay:-1.2s"><rect x="788.5" y="30.5" width="7" height="7" fill="#6c4cf5" transform="rotate(45 792.0 34.0)" /></g>
+<g clip-path="url(#wave)">
+<rect width="840" height="330" fill="url(#bgg)"/>
+<rect width="840" height="330" fill="url(#dots)"/>
+<path d="M540 300 C 610 210, 660 40, 730 70 S 800 160, 860 110" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="2" stroke-dasharray="2 10" stroke-linecap="round" class="dash"/><rect x="590" y="115" width="9" height="9" rx="1.5" fill="#ffffff" fill-opacity=".55" class="bob"/><rect x="690" y="257" width="8" height="8" rx="1.5" fill="#d4ff6b" fill-opacity=".8" class="bob" style="animation-delay:-1s"/><rect x="386" y="297" width="7" height="7" rx="1.5" fill="#ffd2c2" fill-opacity=".7" class="bob" style="animation-delay:-2s"/>
+</g>
+<rect x="28.0" y="29.0" width="10" height="10" fill="#d4ff6b" transform="rotate(45 33.0 34.0)" />
+<text x="48.0" y="39.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="13" font-weight="700" fill="#ffffff" text-anchor="start" letter-spacing="3" >GDG ON CAMPUS SAKARYA</text>
+<text x="292.3" y="39.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="13" font-weight="400" fill="rgba(255,255,255,.66)" text-anchor="start" letter-spacing="1" >· EVENTS</text>
+<line x1="378.7" y1="34" x2="736" y2="34" stroke="rgba(255,255,255,.22)"/>
+<g class="bob"><rect x="752.5" y="30.5" width="7" height="7" fill="#d4ff6b" transform="rotate(45 756.0 34.0)" /></g>
+<g class="bob" style="animation-delay:-.6s"><rect x="770.5" y="30.5" width="7" height="7" fill="#ffffff" transform="rotate(45 774.0 34.0)" /></g>
+<g class="bob" style="animation-delay:-1.2s"><rect x="788.5" y="30.5" width="7" height="7" fill="#e2daff" transform="rotate(45 792.0 34.0)" /></g>
 <line x1="46" y1="84" x2="46" y2="208" stroke="url(#hz)" stroke-width="2"/>
-<rect x="40.5" y="78.5" width="11" height="11" fill="#16150f" transform="rotate(45 46.0 84.0)" stroke="#ff6a33" stroke-width="2"/>
-<text x="72.0" y="80.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11" font-weight="700" fill="#8a8573" text-anchor="start" letter-spacing="1.5" >27 OCT 2026</text>
-<text x="72.0" y="102.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#f3f0e7" text-anchor="start" letter-spacing="0" >Hackathon</text>
-<rect x="747.6" y="82" width="46.4" height="20" rx="10" fill="#ff6a33" fill-opacity=".12" stroke="#ff6a33" stroke-opacity=".55"/><text x="770.8" y="96.5" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="10" font-weight="700" fill="#ff6a33" text-anchor="middle" letter-spacing="1.5" >DONE</text>
-<rect x="40.5" y="140.5" width="11" height="11" fill="#16150f" transform="rotate(45 46.0 146.0)" stroke="#ff6a33" stroke-width="2"/>
-<text x="72.0" y="142.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11" font-weight="700" fill="#8a8573" text-anchor="start" letter-spacing="1.5" >16 OCT 2026</text>
-<text x="72.0" y="164.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#f3f0e7" text-anchor="start" letter-spacing="0" >Tea Talk</text>
-<rect x="747.6" y="144" width="46.4" height="20" rx="10" fill="#ff6a33" fill-opacity=".12" stroke="#ff6a33" stroke-opacity=".55"/><text x="770.8" y="158.5" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="10" font-weight="700" fill="#ff6a33" text-anchor="middle" letter-spacing="1.5" >DONE</text>
-<rect x="40.5" y="202.5" width="11" height="11" fill="#16150f" transform="rotate(45 46.0 208.0)" stroke="#ff6a33" stroke-width="2"/>
-<text x="72.0" y="204.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11" font-weight="700" fill="#8a8573" text-anchor="start" letter-spacing="1.5" >06 OCT 2026</text>
-<text x="72.0" y="226.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#f3f0e7" text-anchor="start" letter-spacing="0" >GDG on Campus Sakarya Üniversitesi ile tanış!</text>
-<rect x="747.6" y="206" width="46.4" height="20" rx="10" fill="#ff6a33" fill-opacity=".12" stroke="#ff6a33" stroke-opacity=".55"/><text x="770.8" y="220.5" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="10" font-weight="700" fill="#ff6a33" text-anchor="middle" letter-spacing="1.5" >DONE</text>
-<text x="28.0" y="280.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11.5" font-weight="400" fill="#8a8573" text-anchor="start" letter-spacing="0" >Auto-updated daily from gdg.community.dev · last run 12 Nov 2026</text>
+<rect x="40.5" y="78.5" width="11" height="11" fill="#16150f" transform="rotate(45 46.0 84.0)" stroke="#ffd9c9" stroke-width="2"/>
+<text x="72.0" y="80.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11" font-weight="700" fill="rgba(255,255,255,.66)" text-anchor="start" letter-spacing="1.5" >27 OCT 2026</text>
+<text x="72.0" y="102.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="start" letter-spacing="0" >Hackathon</text>
+<rect x="747.6" y="82" width="46.4" height="20" rx="10" fill="#ffd9c9" fill-opacity=".12" stroke="#ffd9c9" stroke-opacity=".55"/><text x="770.8" y="96.5" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="10" font-weight="700" fill="#ffd9c9" text-anchor="middle" letter-spacing="1.5" >DONE</text>
+<rect x="40.5" y="140.5" width="11" height="11" fill="#16150f" transform="rotate(45 46.0 146.0)" stroke="#ffd9c9" stroke-width="2"/>
+<text x="72.0" y="142.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11" font-weight="700" fill="rgba(255,255,255,.66)" text-anchor="start" letter-spacing="1.5" >16 OCT 2026</text>
+<text x="72.0" y="164.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="start" letter-spacing="0" >Tea Talk</text>
+<rect x="747.6" y="144" width="46.4" height="20" rx="10" fill="#ffd9c9" fill-opacity=".12" stroke="#ffd9c9" stroke-opacity=".55"/><text x="770.8" y="158.5" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="10" font-weight="700" fill="#ffd9c9" text-anchor="middle" letter-spacing="1.5" >DONE</text>
+<rect x="40.5" y="202.5" width="11" height="11" fill="#16150f" transform="rotate(45 46.0 208.0)" stroke="#ffd9c9" stroke-width="2"/>
+<text x="72.0" y="204.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11" font-weight="700" fill="rgba(255,255,255,.66)" text-anchor="start" letter-spacing="1.5" >06 OCT 2026</text>
+<text x="72.0" y="226.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#ffffff" text-anchor="start" letter-spacing="0" >GDG on Campus Sakarya Üniversitesi ile tanış!</text>
+<rect x="747.6" y="206" width="46.4" height="20" rx="10" fill="#ffd9c9" fill-opacity=".12" stroke="#ffd9c9" stroke-opacity=".55"/><text x="770.8" y="220.5" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="10" font-weight="700" fill="#ffd9c9" text-anchor="middle" letter-spacing="1.5" >DONE</text>
+<text x="28.0" y="280.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11.5" font-weight="400" fill="rgba(255,255,255,.66)" text-anchor="start" letter-spacing="0" >Auto-updated daily from gdg.community.dev · last run 12 Nov 2026</text>
 </svg>

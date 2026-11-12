@@ -20,8 +20,11 @@ USER = "Timujaponya"
 GDG_CHAPTER = 3497
 
 W = 840
-C = dict(bg="#16150f", card="#1e1d18", line="#2e2d27", ink="#f3f0e7", ink2="#bdb8aa", ink3="#8a8573",
-         acc="#ff6a33", game="#9a84ff", game_d="#6c4cf5", lime="#b8f34a", green="#3ccf7a")
+# Banner theme: orange -> purple gradient, white type, dark glass panels.
+C = dict(bg="#16150f", card="rgba(22,21,15,.28)", line="rgba(255,255,255,.22)", ink="#ffffff",
+         ink2="rgba(255,255,255,.86)", ink3="rgba(255,255,255,.66)",
+         acc="#ffd9c9", game="#e2daff", game_d="#6c4cf5", lime="#d4ff6b", green="#d4ff6b",
+         g1="#ff5a1f", g2="#c2452f", g3="#6c4cf5")
 SANS = "'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif"
 MONO = "Consolas,'SFMono-Regular',Menlo,'Courier New',monospace"
 SERIF = "Georgia,'Times New Roman',serif"
@@ -79,11 +82,23 @@ def card(name, h, title, sub, body, accent=C["acc"], aria=""):
     tw = width(title, 13, 0.62) + 3 * len(title)
     sw = width(sub, 13, 0.62) + 1 * len(sub)
     line_x = 48 + tw + 12 + sw + 14
+    h += 22  # room for the wavy bottom edge
+    b = h - 8
+    wave = (f"M0 18Q0 0 18 0H{W - 18}Q{W} 0 {W} 18V{b - 30}"
+            f"C{W - 105} {b + 6},{W - 220} {b - 46},{W - 330} {b - 22}"
+            f"S{W - 560} {b + 4},{W - 670} {b - 24}S{W - 800} {b - 30},0 {b - 14}Z")
+    deco = (f'<path d="M{W - 300} {h - 30} C {W - 230} {h - 120}, {W - 180} 40, {W - 110} 70 S {W - 40} 160, {W + 20} 110" '
+            f'fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="2" stroke-dasharray="2 10" stroke-linecap="round" class="dash"/>'
+            f'<rect x="{W - 250}" y="{h * .35:.0f}" width="9" height="9" rx="1.5" fill="#ffffff" fill-opacity=".55" class="bob"/>'
+            f'<rect x="{W - 150}" y="{h * .78:.0f}" width="8" height="8" rx="1.5" fill="{C["lime"]}" fill-opacity=".8" class="bob" style="animation-delay:-1s"/>'
+            f'<rect x="{W * .46:.0f}" y="{h * .9:.0f}" width="7" height="7" rx="1.5" fill="#ffd2c2" fill-opacity=".7" class="bob" style="animation-delay:-2s"/>')
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}" viewBox="0 0 {W} {h}" role="img" aria-label="{esc(aria or title)}">
 <defs>
-<pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#ffffff" fill-opacity=".07"/></pattern>
-<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{C['acc']}"/><stop offset="1" stop-color="{C['game_d']}"/></linearGradient>
-<linearGradient id="hz" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{C['acc']}"/><stop offset="1" stop-color="{C['game_d']}"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.3" fill="#ffffff" fill-opacity=".16"/></pattern>
+<linearGradient id="bgg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{C['g1']}"/><stop offset=".55" stop-color="{C['g2']}"/><stop offset="1" stop-color="{C['g3']}"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity=".5"/></linearGradient>
+<linearGradient id="hz" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity=".4"/></linearGradient>
+<clipPath id="wave"><path d="{wave}"/></clipPath>
 <style>
 @keyframes pulse{{0%{{opacity:.9;transform:scale(1)}}100%{{opacity:0;transform:scale(2.6)}}}}
 .pulse{{transform-box:fill-box;transform-origin:center;animation:pulse 2.2s ease-out infinite}}
@@ -97,17 +112,18 @@ def card(name, h, title, sub, body, accent=C["acc"], aria=""):
 .stripes{{animation:stripes .8s linear infinite}}
 </style>
 </defs>
-<rect x="1" y="1" width="{W - 2}" height="{h - 2}" rx="18" fill="{C['bg']}"/>
-<rect x="1" y="1" width="{W - 2}" height="{h - 2}" rx="18" fill="url(#dots)"/>
-<rect x="1" y="1" width="{W - 2}" height="{h - 2}" rx="18" fill="none" stroke="url(#edge)" stroke-opacity=".6" stroke-width="1.5"/>
-<rect x="28" y="1" width="110" height="3" rx="1.5" fill="{accent}"/>
+<g clip-path="url(#wave)">
+<rect width="{W}" height="{h}" fill="url(#bgg)"/>
+<rect width="{W}" height="{h}" fill="url(#dots)"/>
+{deco}
+</g>
 {diamond(33, 34, 10, accent)}
 {text(48, 39, title, 13, C['ink'], 700, MONO, ls=3)}
 {text(48 + tw + 12, 39, sub, 13, C['ink3'], 400, MONO, ls=1)}
 <line x1="{line_x:.1f}" y1="34" x2="{W - 104}" y2="34" stroke="{C['line']}"/>
 <g class="bob">{diamond(W - 84, 34, 7, C['lime'])}</g>
-<g class="bob" style="animation-delay:-.6s">{diamond(W - 66, 34, 7, C['acc'])}</g>
-<g class="bob" style="animation-delay:-1.2s">{diamond(W - 48, 34, 7, C['game_d'])}</g>
+<g class="bob" style="animation-delay:-.6s">{diamond(W - 66, 34, 7, '#ffffff')}</g>
+<g class="bob" style="animation-delay:-1.2s">{diamond(W - 48, 34, 7, C['game'])}</g>
 {body}
 </svg>
 '''
@@ -130,7 +146,7 @@ def about():
             f'<circle cx="{cx}" cy="{cy}" r="{r + 7}" fill="none" stroke="url(#edge)" stroke-width="3"/>',
             f'<circle cx="{cx}" cy="{cy}" r="{r + 7}" fill="none" stroke="{C["lime"]}" stroke-width="2" stroke-dasharray="3 9" class="dash"/>',
             f'<image href="data:image/jpeg;base64,{b64(os.path.join(SRC, "arda-small.jpg"))}" x="{cx - 92}" y="{cy - 112}" width="184" height="230" clip-path="url(#ph)" preserveAspectRatio="xMidYMid slice"/>',
-            f'<rect x="{cx - 62}" y="{cy + r - 4}" width="124" height="24" rx="7" fill="{C["acc"]}" transform="rotate(-3 {cx} {cy + r + 8})"/>',
+            f'<rect x="{cx - 62}" y="{cy + r - 4}" width="124" height="24" rx="7" fill="#16150f" transform="rotate(-3 {cx} {cy + r + 8})"/>',
             text(cx, cy + r + 13, "PLAYER 1 · ARDA", 10.5, "#ffffff", 700, MONO, "middle", 1.5, f'transform="rotate(-3 {cx} {cy + r + 8})"'),
             text(cx, cy + r + 50, "Sakarya, Türkiye", 12, C["ink3"], 400, MONO, "middle", 1)]
     y = 92
@@ -201,13 +217,12 @@ def game():
             f'<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset=".35" stop-color="#0b0a08" stop-opacity="0"/><stop offset="1" stop-color="#0b0a08" stop-opacity=".95"/></linearGradient></defs>',
             f'<image href="data:image/jpeg;base64,{shot}" x="{ix}" y="{iy}" width="{iw}" height="{ih:.1f}" clip-path="url(#shot)" preserveAspectRatio="xMidYMid slice"/>',
             f'<rect x="{ix}" y="{iy}" width="{iw}" height="{ih:.1f}" rx="14" fill="url(#fade)"/>',
-            f'<rect x="{ix}" y="{iy}" width="{iw}" height="{ih:.1f}" rx="14" fill="none" stroke="{C["game_d"]}" stroke-opacity=".7" stroke-width="1.5"/>',
+            f'<rect x="{ix}" y="{iy}" width="{iw}" height="{ih:.1f}" rx="14" fill="none" stroke="#ffffff" stroke-opacity=".55" stroke-width="2"/>',
             text(ix + 26, by - 92, "YEŞİLVADİ · 2071", 12, C["lime"], 700, MONO, ls=3),
             text(ix + 24, by - 52, "Apoclimate", 40, "#ffffff", 800),
             text(ix + 26, by - 24, "Keep a climate bunker alive for 5 days. Easy fixes come with a carbon price.", 14, "#e6e2d6"),
-            f'<rect x="{ix + iw - 214}" y="{by - 70}" width="190" height="44" rx="22" fill="{C["game_d"]}"/>',
-            f'<rect x="{ix + iw - 214}" y="{by - 70}" width="190" height="44" rx="22" fill="none" stroke="#ffffff" stroke-opacity=".35"/>',
-            text(ix + iw - 119, by - 42.5, "▶  PLAY IN BROWSER", 13, "#ffffff", 700, MONO, "middle", 1.5)]
+            f'<rect x="{ix + iw - 214}" y="{by - 70}" width="190" height="44" rx="22" fill="#ffffff"/>',
+            text(ix + iw - 119, by - 42.5, "▶  PLAY IN BROWSER", 13, C["game_d"], 700, MONO, "middle", 1.5)]
     y2 = by + 34
     feats = [("ENERGY · WATER · FOOD", C["acc"]), ("WASTE · CARBON", C["lime"]), ("RESIDENTS & TRUST", C["game"]), ("WHO GETS IN?", C["ink2"])]
     x = 28
@@ -241,8 +256,8 @@ def services():
         body.append(text(W - 46, y + 39, price, 24, col, 400, SERIF, "end", extra='font-style="italic"'))
         y += 68
     y += 14
-    body.append(f'<rect x="28" y="{y}" width="178" height="44" rx="22" fill="{C["acc"]}"/>')
-    body.append(text(117, y + 27.5, "GET A QUOTE  →", 13, "#ffffff", 700, MONO, "middle", 1.5))
+    body.append(f'<rect x="28" y="{y}" width="178" height="44" rx="22" fill="#ffffff"/>')
+    body.append(text(117, y + 27.5, "GET A QUOTE  →", 13, "#d9481a", 700, MONO, "middle", 1.5))
     body.append(text(224, y + 27, "Fixed quote after a free 30-minute call · timucin.site", 13, C["ink2"]))
     card("services.svg", y + 72, "SERVICES", "· ITEM SHOP", "\n".join(body),
          aria="Services: business website from ₺15,000, e-commerce from ₺40,000, MVP from ₺30,000, game prototype from ₺20,000, care and hosting from ₺1,500 a month.")
