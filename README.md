@@ -1,55 +1,48 @@
-# 💫 About Me:
-Hi there! 👋 I'm Arda Timuçin, a passionate software developer with a keen interest in backend development and building scalable, efficient applications. I'm constantly improving my skills by working on intermediate-level projects that help me deepen my knowledge and fill any gaps along the way.
-🚀 What I'm Working On
-Developing web applications using ASP.NET Core MVC, Entity Framework, and Identity Framework.
-Exploring PostgreSQL integration in Windows Forms applications with C#.
-Enhancing my understanding of SQL, focusing on practical applications and best practices.
-Experimenting with genetic algorithms for financial data analysis and optimization.
-🛠️ Technologies & Tools I Use
-Languages: C#, Python, Java
-Frameworks: ASP.NET Core, Spring Boot
-Databases: PostgreSQL, SQL Server
-Web Development: HTML, CSS, Bootstrap, JavaScript
-Version Control: Git & GitHub
-Tools: Visual Studio, VS Code, Docker
-📚 Learning Goals
-I'm currently diving deeper into:
-Advanced backend development concepts with a focus on maintainability and scalability.
-Improving user experience through UI/UX best practices in web design.
-Implementing effective logging and unit testing strategies.
-🎯 My Mission
-I strive to create software solutions that are not only functional but also optimized for performance and maintainability. My goal is to build applications that make a real impact while continuously growing as a developer.
-Let's connect and collaborate on exciting projects! 🚀
+<div align="center">
 
-### 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white&style=for-the-badge)](https://instagram.com/ardatmcnacar) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white&style=for-the-badge)](https://linkedin.com/in/arda-timucin-acar)
+<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:ff5a1f,100:6c4cf5&text=Arda%20Timu%C3%A7in%20Acar&fontColor=ffffff&fontSize=46&fontAlignY=36&desc=Product%20%26%20Game%20Developer&descAlignY=58&descSize=18" width="100%" alt="Arda Timuçin Acar · Product & Game Developer"/>
 
-### 💻 Tech Stack:
-[![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)](https://www.cprogramming.com/)
-[![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)](https://learn.microsoft.com/en-us/dotnet/csharp/)
-[![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
-[![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.java.net/)
-[![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
-[![.NET](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)](https://dotnet.microsoft.com/)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
-[![Postgres](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+<a href="https://timucin.site"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1400&color=FF5A1F&center=true&vCenter=true&width=600&lines=I+take+ideas+from+MVP+to+production.;Websites+%C2%B7+E-commerce+%C2%B7+MVPs;Game+prototypes+in+C%23%2C+Unity+%26+Phaser" alt="I take ideas from MVP to production."/></a>
 
+<br/>
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Timujaponya&theme=midnight-purple&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=Timujaponya&theme=midnight-purple&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Timujaponya&theme=midnight-purple&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+[![Portfolio](https://img.shields.io/badge/timucin.site-ff5a1f?style=for-the-badge&logo=googlechrome&logoColor=white)](https://timucin.site)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/arda-timucin-acar)
+[![Email](https://img.shields.io/badge/Email-6c4cf5?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arda.timucinacar@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/ardatmcnacar)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Timujaponya&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4)
+</div>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Timujaponya&limit=5&theme=midnight-purple&combine_all_yearly_contributions=true)
+## 👋 About me
 
----
-[![](https://visitcount.itsvg.in/api?id=Timujaponya&icon=10&color=7)](https://visitcount.itsvg.in) 
+- 🛠️ **Product developer.** I ship MVPs fast and turn the ones that work into production systems. [nellkopya.com](https://nellkopya.com) went from MVP to a live e-commerce site this way.
+- 🎮 **Game developer on the side.** I prototype mechanics until they're fun, from a C# Tower Defense to the browser game [Apoclimate](https://kedaybehzat.github.io/son-denge/).
+- 🎓 4th-year **Software Engineering** student at Sakarya University, with an Erasmus+ semester at **Hochschule Aalen** (Germany).
+- 🌱 Organizer of **Google Developer Groups on Campus** Sakarya.
+- 💼 Open to **freelance and part-time** work: websites, e-commerce, MVPs and game prototypes.
+
+## 🚀 Featured work
+
+| Project | What it is | Stack |
+| --- | --- | --- |
+| 🛒 **[nellkopya.com](https://nellkopya.com)** · `live` | Corporate e-commerce for a toner supplier: auth, inventory, cart, admin panel | Node.js · Express · React · PostgreSQL · Docker |
+| 🌱 **[Apoclimate](https://kedaybehzat.github.io/son-denge/)** · `playable` | Climate-themed bunker management game set in 2071: balance energy, water, food, waste and carbon | Phaser · JavaScript |
+| 🧭 **[timucin.site](https://timucin.site)** · `live` | My portfolio, with an SVG motion layer and a TR/EN toggle | HTML · CSS · JS · Railway |
+| 📈 **[GeneticAlgorithm](https://github.com/Timujaponya/GeneticAlgorithm)** | Genetic algorithm for algorithmic trading strategies | Python · Pandas |
+
+## 🧰 Tech stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=js,ts,nodejs,express,react,postgres,mongodb,docker,linux&perline=9" alt="JavaScript, TypeScript, Node.js, Express, React, PostgreSQL, MongoDB, Docker, Linux"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,java,spring,py,unity,unreal,git,github&perline=9" alt="C#, .NET, Java, Spring, Python, Unity, Unreal Engine, Git, GitHub"/>
+</p>
+
+## 📊 GitHub stats
+
+<p>
+  <img height="170" src="https://streak-stats.demolab.com?user=Timujaponya&hide_border=true&background=16150f&ring=ff5a1f&fire=ff5a1f&currStreakLabel=ff5a1f&sideLabels=e9e6de&currStreakNum=e9e6de&sideNums=e9e6de&dates=86826f&stroke=2e2d27" alt="GitHub streak"/>
+  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Timujaponya&theme=github_dark" alt="Repos per language"/>
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:6c4cf5,100:ff5a1f" width="100%" alt=""/>
