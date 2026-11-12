@@ -8,6 +8,7 @@ import base64
 import datetime
 import html
 import json
+import math
 import os
 import re
 import subprocess
@@ -78,27 +79,73 @@ def b64(path):
         return base64.b64encode(f.read()).decode()
 
 
+CARDS = []
+ORDER = ["about.svg", "now.svg", "featured.svg", "game.svg", "services.svg", "events.svg", "stack.svg", "stats.svg"]
+SEAM, AMP = 10, 6.5            # wave depth at each seam
+SEAM_PHASES = [0.0, 1.9, 3.7, 0.8, 2.6, 4.4, 1.3, 5.1]
+
+
 def card(name, h, title, sub, body, accent=C["acc"], aria=""):
-    tw = width(title, 13, 0.62) + 3 * len(title)
-    sw = width(sub, 13, 0.62) + 1 * len(sub)
-    line_x = 48 + tw + 12 + sw + 14
-    h += 22  # room for the wavy bottom edge
-    b = h - 8
-    wave = (f"M0 18Q0 0 18 0H{W - 18}Q{W} 0 {W} 18V{b - 30}"
-            f"C{W - 105} {b + 6},{W - 220} {b - 46},{W - 330} {b - 22}"
-            f"S{W - 560} {b + 4},{W - 670} {b - 24}S{W - 800} {b - 30},0 {b - 14}Z")
-    deco = (f'<path d="M{W - 300} {h - 30} C {W - 230} {h - 120}, {W - 180} 40, {W - 110} 70 S {W - 40} 160, {W + 20} 110" '
-            f'fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="2" stroke-dasharray="2 10" stroke-linecap="round" class="dash"/>'
-            f'<rect x="{W - 250}" y="{h * .35:.0f}" width="9" height="9" rx="1.5" fill="#ffffff" fill-opacity=".55" class="bob"/>'
-            f'<rect x="{W - 150}" y="{h * .78:.0f}" width="8" height="8" rx="1.5" fill="{C["lime"]}" fill-opacity=".8" class="bob" style="animation-delay:-1s"/>'
-            f'<rect x="{W * .46:.0f}" y="{h * .9:.0f}" width="7" height="7" rx="1.5" fill="#ffd2c2" fill-opacity=".7" class="bob" style="animation-delay:-2s"/>')
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}" viewBox="0 0 {W} {h}" role="img" aria-label="{esc(aria or title)}">
+    # register only; render_all() draws every card as one continuous strip
+    CARDS.append(dict(name=name, h=h + 22, title=title, sub=sub, body=body, accent=accent, aria=aria))
+
+
+def _wave(base, phase):
+    k = 2 * math.pi * 1.25 / W
+    return [(x, base + AMP * math.sin(phase + k * x)) for x in range(0, W + 1, 20)]
+
+
+def _catmull(pts):
+    d = f"M{pts[0][0]:.1f} {pts[0][1]:.1f}"
+    for i in range(len(pts) - 1):
+        p0 = pts[i - 1] if i else pts[i]
+        p1, p2 = pts[i], pts[i + 1]
+        p3 = pts[i + 2] if i + 2 < len(pts) else p2
+        c1 = (p1[0] + (p2[0] - p0[0]) / 6, p1[1] + (p2[1] - p0[1]) / 6)
+        c2 = (p2[0] - (p3[0] - p1[0]) / 6, p2[1] - (p3[1] - p1[1]) / 6)
+        d += f" C{c1[0]:.1f} {c1[1]:.1f} {c2[0]:.1f} {c2[1]:.1f} {p2[0]:.1f} {p2[1]:.1f}"
+    return d
+
+
+def render_all():
+    cards = sorted(CARDS, key=lambda c: ORDER.index(c["name"]))
+    offs, total = [], 0
+    for c in cards:
+        offs.append(total)
+        total += c["h"]
+    # one route and one set of pixels in shared coordinates, so they flow from card to card
+    xs = [W - 90, W - 240, W - 120, W - 310, W - 80, W - 200]
+    route = _catmull([(xs[j % len(xs)], -40 + j * 230) for j in range(int(total / 230) + 3)])
+    pix = []
+    for j, y in enumerate(range(120, int(total), 190)):
+        x = [W - 250, W - 140, int(W * .47), W - 60, W - 330][j % 5]
+        col, op = [("#ffffff", .55), (C["lime"], .8), ("#ffd2c2", .7)][j % 3]
+        pix.append((x, y, 7 + j % 3, col, op, -(j % 4) * .7))
+
+    for i, c in enumerate(cards):
+        off, h = offs[i], c["h"]
+        if i == 0:
+            top = f"M0 18Q0 0 18 0H{W - 18}Q{W} 0 {W} 18"
+        else:
+            tp = _wave(SEAM, SEAM_PHASES[i - 1])
+            top = "M" + " L".join(f"{x} {y:.1f}" for x, y in tp)
+        bp = _wave(h - SEAM, SEAM_PHASES[i])[::-1]
+        shape = top + " L" + " L".join(f"{x} {y:.1f}" for x, y in bp) + "Z"
+        tw = width(c["title"], 13, 0.62) + 3 * len(c["title"])
+        sw = width(c["sub"], 13, 0.62) + 1 * len(c["sub"])
+        line_x = 48 + tw + 12 + sw + 14
+        deco = (f'<g transform="translate(0 {-off})">'
+                f'<path d="{route}" fill="none" stroke="#ffffff" stroke-opacity=".3" stroke-width="2" stroke-dasharray="2 10" stroke-linecap="round" class="dash"/>'
+                + "".join(f'<rect x="{x}" y="{y}" width="{sz}" height="{sz}" rx="1.5" fill="{col}" fill-opacity="{op}" class="bob" style="animation-delay:{dl}s"/>'
+                          for x, y, sz, col, op, dl in pix if off - 20 < y < off + h + 20)
+                + '</g>')
+        svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{h}" viewBox="0 0 {W} {h}" role="img" aria-label="{esc(c['aria'] or c['title'])}">
 <defs>
-<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.3" fill="#ffffff" fill-opacity=".16"/></pattern>
-<linearGradient id="bgg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{C['g1']}"/><stop offset=".55" stop-color="{C['g2']}"/><stop offset="1" stop-color="{C['g3']}"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="translate(0 {-(off % 24)})"><circle cx="2" cy="2" r="1.3" fill="#ffffff" fill-opacity=".16"/></pattern>
+<linearGradient id="bgg" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="0" y1="{-off}" x2="{W}" y2="{760 - off}"><stop offset="0" stop-color="{C['g1']}"/><stop offset=".5" stop-color="{C['g2']}"/><stop offset="1" stop-color="{C['g3']}"/></linearGradient>
 <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity=".5"/></linearGradient>
 <linearGradient id="hz" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity=".4"/></linearGradient>
-<clipPath id="wave"><path d="{wave}"/></clipPath>
+<clipPath id="wave"><path d="{shape}"/></clipPath>
 <style>
 @keyframes pulse{{0%{{opacity:.9;transform:scale(1)}}100%{{opacity:0;transform:scale(2.6)}}}}
 .pulse{{transform-box:fill-box;transform-origin:center;animation:pulse 2.2s ease-out infinite}}
@@ -117,19 +164,19 @@ def card(name, h, title, sub, body, accent=C["acc"], aria=""):
 <rect width="{W}" height="{h}" fill="url(#dots)"/>
 {deco}
 </g>
-{diamond(33, 34, 10, accent)}
-{text(48, 39, title, 13, C['ink'], 700, MONO, ls=3)}
-{text(48 + tw + 12, 39, sub, 13, C['ink3'], 400, MONO, ls=1)}
-<line x1="{line_x:.1f}" y1="34" x2="{W - 104}" y2="34" stroke="{C['line']}"/>
-<g class="bob">{diamond(W - 84, 34, 7, C['lime'])}</g>
-<g class="bob" style="animation-delay:-.6s">{diamond(W - 66, 34, 7, '#ffffff')}</g>
-<g class="bob" style="animation-delay:-1.2s">{diamond(W - 48, 34, 7, C['game'])}</g>
-{body}
+{diamond(33, 34 + (8 if i else 0), 10, c['accent'])}
+{text(48, 39 + (8 if i else 0), c['title'], 13, C['ink'], 700, MONO, ls=3)}
+{text(48 + tw + 12, 39 + (8 if i else 0), c['sub'], 13, C['ink3'], 400, MONO, ls=1)}
+<line x1="{line_x:.1f}" y1="{34 + (8 if i else 0)}" x2="{W - 104}" y2="{34 + (8 if i else 0)}" stroke="{C['line']}"/>
+<g class="bob">{diamond(W - 84, 34 + (8 if i else 0), 7, C['lime'])}</g>
+<g class="bob" style="animation-delay:-.6s">{diamond(W - 66, 34 + (8 if i else 0), 7, '#ffffff')}</g>
+<g class="bob" style="animation-delay:-1.2s">{diamond(W - 48, 34 + (8 if i else 0), 7, C['game'])}</g>
+<g transform="translate(0 {8 if i else 0})">{c['body']}</g>
 </svg>
 '''
-    with open(os.path.join(ASSETS, name), "w", encoding="utf-8", newline="\n") as f:
-        f.write(svg)
-    print("wrote", name, f"{len(svg) // 1024} KB")
+        with open(os.path.join(ASSETS, c["name"]), "w", encoding="utf-8", newline="\n") as f:
+            f.write(svg)
+        print("wrote", c["name"], f"{len(svg) // 1024} KB")
 
 
 # ---------- about ----------
@@ -388,3 +435,4 @@ if __name__ == "__main__":
     os.makedirs(ASSETS, exist_ok=True)
     for fn in (about, right_now, featured, game, services, stack, events, stats):
         fn()
+    render_all()

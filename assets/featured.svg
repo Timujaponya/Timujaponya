@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="468" viewBox="0 0 840 468" role="img" aria-label="Featured work: nellkopya.com (live e-commerce), Apoclimate (playable game), timucin.site (portfolio), GeneticAlgorithm (trading research).">
 <defs>
-<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.3" fill="#ffffff" fill-opacity=".16"/></pattern>
-<linearGradient id="bgg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff5a1f"/><stop offset=".55" stop-color="#c2452f"/><stop offset="1" stop-color="#6c4cf5"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="translate(0 -8)"><circle cx="2" cy="2" r="1.3" fill="#ffffff" fill-opacity=".16"/></pattern>
+<linearGradient id="bgg" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="0" y1="-800" x2="840" y2="-40"><stop offset="0" stop-color="#ff5a1f"/><stop offset=".5" stop-color="#c2452f"/><stop offset="1" stop-color="#6c4cf5"/></linearGradient>
 <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity=".5"/></linearGradient>
 <linearGradient id="hz" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity=".4"/></linearGradient>
-<clipPath id="wave"><path d="M0 18Q0 0 18 0H822Q840 0 840 18V430C735 466,620 414,510 438S280 464,170 436S40 430,0 446Z"/></clipPath>
+<clipPath id="wave"><path d="M0 16.2 L20 15.7 L40 15.0 L60 14.1 L80 13.1 L100 12.0 L120 10.8 L140 9.6 L160 8.4 L180 7.2 L200 6.2 L220 5.3 L240 4.5 L260 4.0 L280 3.6 L300 3.5 L320 3.6 L340 3.9 L360 4.5 L380 5.2 L400 6.1 L420 7.1 L440 8.3 L460 9.5 L480 10.7 L500 11.9 L520 13.0 L540 14.0 L560 14.9 L580 15.6 L600 16.1 L620 16.4 L640 16.5 L660 16.3 L680 16.0 L700 15.4 L720 14.6 L740 13.7 L760 12.6 L780 11.5 L800 10.3 L820 9.1 L840 7.9 L840 452.5 L820 451.9 L800 451.6 L780 451.5 L760 451.6 L740 452.0 L720 452.5 L700 453.2 L680 454.2 L660 455.2 L640 456.3 L620 457.5 L600 458.7 L580 459.9 L560 461.1 L540 462.1 L520 462.9 L500 463.6 L480 464.1 L460 464.4 L440 464.5 L420 464.3 L400 464.0 L380 463.4 L360 462.6 L340 461.6 L320 460.6 L300 459.4 L280 458.2 L260 457.0 L240 455.8 L220 454.7 L200 453.7 L180 452.9 L160 452.2 L140 451.8 L120 451.5 L100 451.5 L80 451.7 L60 452.2 L40 452.8 L20 453.6 L0 454.6Z"/></clipPath>
 <style>
 @keyframes pulse{0%{opacity:.9;transform:scale(1)}100%{opacity:0;transform:scale(2.6)}}
 .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.2s ease-out infinite}
@@ -21,16 +21,16 @@
 <g clip-path="url(#wave)">
 <rect width="840" height="468" fill="url(#bgg)"/>
 <rect width="840" height="468" fill="url(#dots)"/>
-<path d="M540 438 C 610 348, 660 40, 730 70 S 800 160, 860 110" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="2" stroke-dasharray="2 10" stroke-linecap="round" class="dash"/><rect x="590" y="164" width="9" height="9" rx="1.5" fill="#ffffff" fill-opacity=".55" class="bob"/><rect x="690" y="365" width="8" height="8" rx="1.5" fill="#d4ff6b" fill-opacity=".8" class="bob" style="animation-delay:-1s"/><rect x="386" y="421" width="7" height="7" rx="1.5" fill="#ffd2c2" fill-opacity=".7" class="bob" style="animation-delay:-2s"/>
+<g transform="translate(0 -800)"><path d="M750.0 -40.0 C725.0 -1.7 605.0 113.3 600.0 190.0 C595.0 266.7 731.7 343.3 720.0 420.0 C708.3 496.7 523.3 573.3 530.0 650.0 C536.7 726.7 741.7 803.3 760.0 880.0 C778.3 956.7 641.7 1033.3 640.0 1110.0 C638.3 1186.7 756.7 1263.3 750.0 1340.0 C743.3 1416.7 605.0 1493.3 600.0 1570.0 C595.0 1646.7 731.7 1723.3 720.0 1800.0 C708.3 1876.7 523.3 1953.3 530.0 2030.0 C536.7 2106.7 741.7 2183.3 760.0 2260.0 C778.3 2336.7 641.7 2413.3 640.0 2490.0 C638.3 2566.7 756.7 2643.3 750.0 2720.0 C743.3 2796.7 605.0 2873.3 600.0 2950.0 C595.0 3026.7 731.7 3103.3 720.0 3180.0 C708.3 3256.7 523.3 3333.3 530.0 3410.0 C536.7 3486.7 721.7 3601.7 760.0 3640.0" fill="none" stroke="#ffffff" stroke-opacity=".3" stroke-width="2" stroke-dasharray="2 10" stroke-linecap="round" class="dash"/><rect x="510" y="880" width="8" height="8" rx="1.5" fill="#d4ff6b" fill-opacity="0.8" class="bob" style="animation-delay:0.0s"/><rect x="590" y="1070" width="9" height="9" rx="1.5" fill="#ffd2c2" fill-opacity="0.7" class="bob" style="animation-delay:-0.7s"/><rect x="700" y="1260" width="7" height="7" rx="1.5" fill="#ffffff" fill-opacity="0.55" class="bob" style="animation-delay:-1.4s"/></g>
 </g>
-<rect x="28.0" y="29.0" width="10" height="10" fill="#ffd9c9" transform="rotate(45 33.0 34.0)" />
-<text x="48.0" y="39.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="13" font-weight="700" fill="#ffffff" text-anchor="start" letter-spacing="3" >FEATURED WORK</text>
-<text x="203.8" y="39.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="13" font-weight="400" fill="rgba(255,255,255,.66)" text-anchor="start" letter-spacing="1" >· QUESTS CLEARED</text>
-<line x1="362.7" y1="34" x2="736" y2="34" stroke="rgba(255,255,255,.22)"/>
-<g class="bob"><rect x="752.5" y="30.5" width="7" height="7" fill="#d4ff6b" transform="rotate(45 756.0 34.0)" /></g>
-<g class="bob" style="animation-delay:-.6s"><rect x="770.5" y="30.5" width="7" height="7" fill="#ffffff" transform="rotate(45 774.0 34.0)" /></g>
-<g class="bob" style="animation-delay:-1.2s"><rect x="788.5" y="30.5" width="7" height="7" fill="#e2daff" transform="rotate(45 792.0 34.0)" /></g>
-<rect x="28.0" y="66" width="384.0" height="168" rx="14" fill="rgba(22,21,15,.28)" stroke="rgba(255,255,255,.22)"/>
+<rect x="28.0" y="37.0" width="10" height="10" fill="#ffd9c9" transform="rotate(45 33.0 42.0)" />
+<text x="48.0" y="47.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="13" font-weight="700" fill="#ffffff" text-anchor="start" letter-spacing="3" >FEATURED WORK</text>
+<text x="203.8" y="47.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="13" font-weight="400" fill="rgba(255,255,255,.66)" text-anchor="start" letter-spacing="1" >· QUESTS CLEARED</text>
+<line x1="362.7" y1="42" x2="736" y2="42" stroke="rgba(255,255,255,.22)"/>
+<g class="bob"><rect x="752.5" y="38.5" width="7" height="7" fill="#d4ff6b" transform="rotate(45 756.0 42.0)" /></g>
+<g class="bob" style="animation-delay:-.6s"><rect x="770.5" y="38.5" width="7" height="7" fill="#ffffff" transform="rotate(45 774.0 42.0)" /></g>
+<g class="bob" style="animation-delay:-1.2s"><rect x="788.5" y="38.5" width="7" height="7" fill="#e2daff" transform="rotate(45 792.0 42.0)" /></g>
+<g transform="translate(0 8)"><rect x="28.0" y="66" width="384.0" height="168" rx="14" fill="rgba(22,21,15,.28)" stroke="rgba(255,255,255,.22)"/>
 <rect x="28.0" y="66" width="4" height="168" rx="2" fill="#ffd9c9"/>
 <text x="50.0" y="100.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="start" letter-spacing="0" >nellkopya.com</text>
 <circle cx="329.6" cy="95" r="4" fill="#d4ff6b" class="pulse"/><circle cx="329.6" cy="95" r="4" fill="#d4ff6b"/>
@@ -55,5 +55,5 @@
 <text x="450.0" y="284.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="18" font-weight="700" fill="#ffffff" text-anchor="start" letter-spacing="0" >GeneticAlgorithm</text>
 <rect x="745.6" y="270" width="46.4" height="20" rx="10" fill="rgba(255,255,255,.86)" fill-opacity=".12" stroke="rgba(255,255,255,.86)" stroke-opacity=".55"/><text x="768.8" y="284.5" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="10" font-weight="700" fill="rgba(255,255,255,.86)" text-anchor="middle" letter-spacing="1.5" >REPO</text>
 <text x="450.0" y="312.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13.5" font-weight="400" fill="rgba(255,255,255,.86)" text-anchor="start" letter-spacing="0" >A genetic algorithm that evolves and tests</text><text x="450.0" y="331.6" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13.5" font-weight="400" fill="rgba(255,255,255,.86)" text-anchor="start" letter-spacing="0" >algorithmic trading strategies on market data.</text>
-<text x="450.0" y="398.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="12" font-weight="400" fill="#d4ff6b" text-anchor="start" letter-spacing="0" >Python · Pandas</text>
+<text x="450.0" y="398.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="12" font-weight="400" fill="#d4ff6b" text-anchor="start" letter-spacing="0" >Python · Pandas</text></g>
 </svg>

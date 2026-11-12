@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="522" viewBox="0 0 840 522" role="img" aria-label="Services: business website from ₺15,000, e-commerce from ₺40,000, MVP from ₺30,000, game prototype from ₺20,000, care and hosting from ₺1,500 a month.">
 <defs>
-<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.3" fill="#ffffff" fill-opacity=".16"/></pattern>
-<linearGradient id="bgg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff5a1f"/><stop offset=".55" stop-color="#c2452f"/><stop offset="1" stop-color="#6c4cf5"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="translate(0 -11)"><circle cx="2" cy="2" r="1.3" fill="#ffffff" fill-opacity=".16"/></pattern>
+<linearGradient id="bgg" gradientUnits="userSpaceOnUse" spreadMethod="reflect" x1="0" y1="-1859" x2="840" y2="-1099"><stop offset="0" stop-color="#ff5a1f"/><stop offset=".5" stop-color="#c2452f"/><stop offset="1" stop-color="#6c4cf5"/></linearGradient>
 <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity=".5"/></linearGradient>
 <linearGradient id="hz" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff" stop-opacity=".4"/></linearGradient>
-<clipPath id="wave"><path d="M0 18Q0 0 18 0H822Q840 0 840 18V484C735 520,620 468,510 492S280 518,170 490S40 484,0 500Z"/></clipPath>
+<clipPath id="wave"><path d="M0 14.7 L20 15.4 L40 16.0 L60 16.4 L80 16.5 L100 16.4 L120 16.1 L140 15.6 L160 14.9 L180 14.0 L200 13.0 L220 11.8 L240 10.6 L260 9.4 L280 8.2 L300 7.1 L320 6.1 L340 5.2 L360 4.4 L380 3.9 L400 3.6 L420 3.5 L440 3.6 L460 4.0 L480 4.5 L500 5.3 L520 6.2 L540 7.3 L560 8.4 L580 9.6 L600 10.8 L620 12.0 L640 13.1 L660 14.1 L680 15.0 L700 15.7 L720 16.2 L740 16.4 L760 16.5 L780 16.3 L800 15.9 L820 15.3 L840 14.5 L840 506.4 L820 507.2 L800 508.0 L780 509.1 L760 510.2 L740 511.4 L720 512.6 L700 513.8 L680 514.9 L660 516.0 L640 516.8 L620 517.6 L600 518.1 L580 518.4 L560 518.5 L540 518.4 L520 518.0 L500 517.4 L480 516.7 L460 515.8 L440 514.7 L420 513.6 L400 512.4 L380 511.2 L360 510.0 L340 508.9 L320 507.9 L300 507.0 L280 506.3 L260 505.8 L240 505.6 L220 505.5 L200 505.7 L180 506.1 L160 506.7 L140 507.5 L120 508.4 L100 509.5 L80 510.7 L60 511.9 L40 513.1 L20 514.3 L0 515.4Z"/></clipPath>
 <style>
 @keyframes pulse{0%{opacity:.9;transform:scale(1)}100%{opacity:0;transform:scale(2.6)}}
 .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.2s ease-out infinite}
@@ -21,16 +21,16 @@
 <g clip-path="url(#wave)">
 <rect width="840" height="522" fill="url(#bgg)"/>
 <rect width="840" height="522" fill="url(#dots)"/>
-<path d="M540 492 C 610 402, 660 40, 730 70 S 800 160, 860 110" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="2" stroke-dasharray="2 10" stroke-linecap="round" class="dash"/><rect x="590" y="183" width="9" height="9" rx="1.5" fill="#ffffff" fill-opacity=".55" class="bob"/><rect x="690" y="407" width="8" height="8" rx="1.5" fill="#d4ff6b" fill-opacity=".8" class="bob" style="animation-delay:-1s"/><rect x="386" y="470" width="7" height="7" rx="1.5" fill="#ffd2c2" fill-opacity=".7" class="bob" style="animation-delay:-2s"/>
+<g transform="translate(0 -1859)"><path d="M750.0 -40.0 C725.0 -1.7 605.0 113.3 600.0 190.0 C595.0 266.7 731.7 343.3 720.0 420.0 C708.3 496.7 523.3 573.3 530.0 650.0 C536.7 726.7 741.7 803.3 760.0 880.0 C778.3 956.7 641.7 1033.3 640.0 1110.0 C638.3 1186.7 756.7 1263.3 750.0 1340.0 C743.3 1416.7 605.0 1493.3 600.0 1570.0 C595.0 1646.7 731.7 1723.3 720.0 1800.0 C708.3 1876.7 523.3 1953.3 530.0 2030.0 C536.7 2106.7 741.7 2183.3 760.0 2260.0 C778.3 2336.7 641.7 2413.3 640.0 2490.0 C638.3 2566.7 756.7 2643.3 750.0 2720.0 C743.3 2796.7 605.0 2873.3 600.0 2950.0 C595.0 3026.7 731.7 3103.3 720.0 3180.0 C708.3 3256.7 523.3 3333.3 530.0 3410.0 C536.7 3486.7 721.7 3601.7 760.0 3640.0" fill="none" stroke="#ffffff" stroke-opacity=".3" stroke-width="2" stroke-dasharray="2 10" stroke-linecap="round" class="dash"/><rect x="590" y="2020" width="8" height="8" rx="1.5" fill="#d4ff6b" fill-opacity="0.8" class="bob" style="animation-delay:-1.4s"/><rect x="700" y="2210" width="9" height="9" rx="1.5" fill="#ffd2c2" fill-opacity="0.7" class="bob" style="animation-delay:-2.0999999999999996s"/><rect x="394" y="2400" width="7" height="7" rx="1.5" fill="#ffffff" fill-opacity="0.55" class="bob" style="animation-delay:0.0s"/></g>
 </g>
-<rect x="28.0" y="29.0" width="10" height="10" fill="#ffd9c9" transform="rotate(45 33.0 34.0)" />
-<text x="48.0" y="39.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="13" font-weight="700" fill="#ffffff" text-anchor="start" letter-spacing="3" >SERVICES</text>
-<text x="148.5" y="39.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="13" font-weight="400" fill="rgba(255,255,255,.66)" text-anchor="start" letter-spacing="1" >· ITEM SHOP</text>
-<line x1="262.1" y1="34" x2="736" y2="34" stroke="rgba(255,255,255,.22)"/>
-<g class="bob"><rect x="752.5" y="30.5" width="7" height="7" fill="#d4ff6b" transform="rotate(45 756.0 34.0)" /></g>
-<g class="bob" style="animation-delay:-.6s"><rect x="770.5" y="30.5" width="7" height="7" fill="#ffffff" transform="rotate(45 774.0 34.0)" /></g>
-<g class="bob" style="animation-delay:-1.2s"><rect x="788.5" y="30.5" width="7" height="7" fill="#e2daff" transform="rotate(45 792.0 34.0)" /></g>
-<rect x="28" y="74" width="784" height="58" rx="12" fill="rgba(22,21,15,.28)" stroke="rgba(255,255,255,.22)"/>
+<rect x="28.0" y="37.0" width="10" height="10" fill="#ffd9c9" transform="rotate(45 33.0 42.0)" />
+<text x="48.0" y="47.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="13" font-weight="700" fill="#ffffff" text-anchor="start" letter-spacing="3" >SERVICES</text>
+<text x="148.5" y="47.0" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="13" font-weight="400" fill="rgba(255,255,255,.66)" text-anchor="start" letter-spacing="1" >· ITEM SHOP</text>
+<line x1="262.1" y1="42" x2="736" y2="42" stroke="rgba(255,255,255,.22)"/>
+<g class="bob"><rect x="752.5" y="38.5" width="7" height="7" fill="#d4ff6b" transform="rotate(45 756.0 42.0)" /></g>
+<g class="bob" style="animation-delay:-.6s"><rect x="770.5" y="38.5" width="7" height="7" fill="#ffffff" transform="rotate(45 774.0 42.0)" /></g>
+<g class="bob" style="animation-delay:-1.2s"><rect x="788.5" y="38.5" width="7" height="7" fill="#e2daff" transform="rotate(45 792.0 42.0)" /></g>
+<g transform="translate(0 8)"><rect x="28" y="74" width="784" height="58" rx="12" fill="rgba(22,21,15,.28)" stroke="rgba(255,255,255,.22)"/>
 <rect x="42" y="85" width="52" height="36" rx="9" fill="#ffd9c9" fill-opacity=".14" stroke="#ffd9c9" stroke-opacity=".6"/>
 <text x="68.0" y="107.5" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="11" font-weight="700" fill="#ffd9c9" text-anchor="middle" letter-spacing="1.5" >WEB</text>
 <text x="110.0" y="99.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="15.5" font-weight="700" fill="#ffffff" text-anchor="start" letter-spacing="0" >Business website</text>
@@ -72,5 +72,5 @@
 <text x="794.0" y="385.0" font-family="Georgia,'Times New Roman',serif" font-size="24" font-weight="400" fill="rgba(255,255,255,.86)" text-anchor="end" letter-spacing="0" font-style="italic">₺1,500/mo</text>
 <rect x="28" y="428" width="178" height="44" rx="22" fill="#ffffff"/>
 <text x="117.0" y="455.5" font-family="Consolas,'SFMono-Regular',Menlo,'Courier New',monospace" font-size="13" font-weight="700" fill="#d9481a" text-anchor="middle" letter-spacing="1.5" >GET A QUOTE  →</text>
-<text x="224.0" y="455.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="rgba(255,255,255,.86)" text-anchor="start" letter-spacing="0" >Fixed quote after a free 30-minute call · timucin.site</text>
+<text x="224.0" y="455.0" font-family="'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="13" font-weight="400" fill="rgba(255,255,255,.86)" text-anchor="start" letter-spacing="0" >Fixed quote after a free 30-minute call · timucin.site</text></g>
 </svg>
