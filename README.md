@@ -13,25 +13,25 @@
 
 <br/><br/>
 
-<img src="./assets/about.svg" width="100%" alt="About me: product developer who ships MVPs and turns the ones that work into production systems; game developer prototyping mechanics; 4th-year Software Engineering at Sakarya University with an Erasmus+ semester at Hochschule Aalen; organizer of GDG on Campus Sakarya; open to freelance and part-time work."/>
+<img src="./assets/about.svg?v=2" width="100%" alt="About me: product developer who ships MVPs and turns the ones that work into production systems; game developer prototyping mechanics; 4th-year Software Engineering at Sakarya University with an Erasmus+ semester at Hochschule Aalen; organizer of GDG on Campus Sakarya; open to freelance and part-time work."/>
 
-<img src="./assets/now.svg" width="100%" alt="Right now: running the 2026–27 season of GDG on Campus Sakarya, polishing timucin.site, taking freelance website and e-commerce builds, final year of Software Engineering."/>
+<img src="./assets/now.svg?v=2" width="100%" alt="Right now: running the 2026–27 season of GDG on Campus Sakarya, polishing timucin.site, taking freelance website and e-commerce builds, final year of Software Engineering."/>
 
-<a href="https://timucin.site"><img src="./assets/featured.svg" width="100%" alt="Featured work: nellkopya.com, Apoclimate, timucin.site, GeneticAlgorithm."/></a>
+<a href="https://timucin.site"><img src="./assets/featured.svg?v=2" width="100%" alt="Featured work: nellkopya.com, Apoclimate, timucin.site, GeneticAlgorithm."/></a>
 
 <sub>**[nellkopya.com](https://nellkopya.com)** · **[Apoclimate](https://kedaybehzat.github.io/son-denge/)** · **[timucin.site](https://timucin.site)** · **[GeneticAlgorithm](https://github.com/Timujaponya/GeneticAlgorithm)**</sub>
 
 <br/><br/>
 
-<a href="https://kedaybehzat.github.io/son-denge/"><img src="./assets/game.svg" width="100%" alt="Game showcase: Apoclimate, a climate-themed bunker management game set in Yeşilvadi, 2071. Click to play in the browser."/></a>
+<a href="https://kedaybehzat.github.io/son-denge/"><img src="./assets/game.svg?v=2" width="100%" alt="Game showcase: Apoclimate, a climate-themed bunker management game set in Yeşilvadi, 2071. Click to play in the browser."/></a>
 
-<a href="https://timucin.site/#contact"><img src="./assets/services.svg" width="100%" alt="Services: business website from ₺15,000, e-commerce from ₺40,000, MVP from ₺30,000, game prototype from ₺20,000, care and hosting from ₺1,500 a month. Click to get a quote."/></a>
+<a href="https://timucin.site/#contact"><img src="./assets/services.svg?v=2" width="100%" alt="Services: business website from ₺15,000, e-commerce from ₺40,000, MVP from ₺30,000, game prototype from ₺20,000, care and hosting from ₺1,500 a month. Click to get a quote."/></a>
 
-<a href="https://gdg.community.dev/gdg-on-campus-sakarya-universitesi-sakarya-turkiye/"><img src="./assets/events.svg" width="100%" alt="Latest GDG on Campus Sakarya events, updated daily."/></a>
+<a href="https://gdg.community.dev/gdg-on-campus-sakarya-universitesi-sakarya-turkiye/"><img src="./assets/events.svg?v=2" width="100%" alt="Latest GDG on Campus Sakarya events, updated daily."/></a>
 
-<img src="./assets/stack.svg" width="100%" alt="Tech stack: JavaScript, TypeScript, Node.js, Express, React, HTML, CSS, PostgreSQL, MongoDB, Docker, Linux, Git, GitHub, C#, .NET, Java, Spring, Python, Unity, Unreal Engine."/>
+<img src="./assets/stack.svg?v=2" width="100%" alt="Tech stack: JavaScript, TypeScript, Node.js, Express, React, HTML, CSS, PostgreSQL, MongoDB, Docker, Linux, Git, GitHub, C#, .NET, Java, Spring, Python, Unity, Unreal Engine."/>
 
-<img src="./assets/stats.svg" width="100%" alt="GitHub stats and top languages, updated daily."/>
+<img src="./assets/stats.svg?v=2" width="100%" alt="GitHub stats and top languages, updated daily."/>
 
 <img src="./assets/footer.svg" width="100%" alt=""/>
 
