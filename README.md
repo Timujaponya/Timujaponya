@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:ff5a1f,100:6c4cf5&text=Arda%20Timu%C3%A7in%20Acar&fontColor=ffffff&fontSize=46&fontAlignY=36&desc=Product%20%26%20Game%20Developer&descAlignY=58&descSize=18" width="100%" alt="Arda Timuçin Acar · Product & Game Developer"/>
+<img src="./assets/banner.svg" width="100%" alt="Arda Timuçin Acar · Product & Game Developer"/>
 
 <a href="https://timucin.site"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1400&color=FF5A1F&center=true&vCenter=true&width=600&lines=I+take+ideas+from+MVP+to+production.;Websites+%C2%B7+E-commerce+%C2%B7+MVPs;Game+prototypes+in+C%23%2C+Unity+%26+Phaser" alt="I take ideas from MVP to production."/></a>
 
@@ -45,4 +45,4 @@
   <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Timujaponya&theme=github_dark" alt="Repos per language"/>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:6c4cf5,100:ff5a1f" width="100%" alt=""/>
+<img src="./assets/footer.svg" width="100%" alt=""/>
